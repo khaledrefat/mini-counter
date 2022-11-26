@@ -1,0 +1,59 @@
+body{
+    background-color: antiquewhite;
+    color: blue;
+    
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+
+
+}
+
+#counter , #mini , #reset{
+    width: 150px;
+    height: 150px;
+    border-radius: 40%;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#counter{
+    background-color: rgba(234, 18, 18, 0.689);
+    color: rgb(37, 5, 125);
+    font-size: 70px;
+}
+
+#mini{
+    background-color: rgba(234, 18, 18, 0.689);
+    color: rgb(37, 5, 125);
+    font-size: 70px;
+
+}
+#reset{
+    background-color: rgba(234, 18, 18, 0.689);
+    color: rgb(37, 5, 125);
+    font-size: 70px;
+
+}
+#number{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    font-size: 80px;
+    color: blueviolet;
+    font-weight: 500;
+}
+#continner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
